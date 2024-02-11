@@ -1,0 +1,238 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins/Poppins-Medium.ttf);
+
+
+}
+
+
+
+
+/* navbar start here  */
+.navbar {
+    height: 100px;
+}
+
+.navbar-main {
+    background-color: #f7f7f7;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.nav-menu {
+    background-color: #fff;
+    width: 80%;
+    border-radius: 40px;
+}
+
+.nav-menu li {
+    margin: auto;
+    font-family: Poppins;
+
+}
+
+.nav-menu li:hover {
+    text-decoration: underline;
+}
+
+.nav-logo img {
+    width: 80px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.btn {
+    border-radius: 20px !important;
+    border-color: #bdbdbd !important;
+    background-color: white !important;
+}
+
+.btn:hover {
+    color: black !important;
+    background-color: #dad9d9c5 !important;
+    text-decoration: underline;
+}
+
+.nav-right-menu ul {
+    margin-left: 100px;
+}
+
+.nav-right-menu ul li:hover {
+    text-decoration: underline;
+}
+
+/* section one start from here  */
+
+.section-one {
+    background: rgb(193, 222, 232);
+    background: linear-gradient(90deg, rgba(193, 222, 232, 1) 22%, rgba(251, 217, 185, 1) 90%);
+    height: 617px;
+    border-radius: 15px;
+}
+
+
+.estate-home-text {
+    padding: 110px;
+}
+
+.estate-home-text input {
+    border-radius: 50px;
+    padding: 10px;
+    width: 50%;
+    border: none;
+}
+
+.estate-home-text button {
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+
+}
+
+.estate-home-text h1 {
+    font-family: Poppins;
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    margin: 24px 0px;
+}
+
+.estate-home-text p {
+    width: 90%;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.estate-home-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.estate-home-img>img {
+    width: 103% !important;
+    height: 700px;
+    filter: drop-shadow(0px 0px 8px rgb(15, 14, 14));
+}
+
+/* section two strt here */
+/* mid-text  */
+
+
+.mid-text {
+    margin: 80px 0px;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.mid-text h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.step-main {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80px !important;
+    font-family: poppins;
+}
+
+/* section three start */
+
+.project-mid-main {
+    font-family: poppins;
+    margin-bottom: 20px;
+}
+
+.project-mid-text {
+    line-height: 30px;
+}
+
+.project-mid-text>h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.project-mid-img {
+    display: flex;
+    justify-content: end;
+}
+
+.project-mid-img img {
+    margin-top: 20px;
+}
+
+.card-main {
+    font-family: poppins;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    border-radius: 20px !important;
+    height: 300px;
+    object-fit: contain;
+}
+
+.card {
+    border-radius: 20px !important;
+    padding: 0px !important;
+}
+
+/* section four start from here  */
+
+.globle-mid-text h2 {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    width: 60%;
+    margin: 70px auto;
+    text-align: center;
+
+}
+
+.globle-text {
+    font-family: Poppins;
+}
+
+.globle-text .btn {
+    margin: 30px 0px;
+
+}
+
+.plus {
+    margin-top: 80px !important;
+}
+
+.btn1 {
+    background-color: black !important;
+    color: white !important;
+}
+
+.globle-text h3 {
+    margin: 24px 0px;
+    font-size: 2.5rem;
+}
+
+
+.globle-text p {
+    width: 70%;
+    margin: 24px 0px;
+}
+
+.globle-img {
+    text-align: right;
+
+}

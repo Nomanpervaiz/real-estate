@@ -1,0 +1,297 @@
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+@media only screen and  (min-width:792px ) and (max-width: 831px){
+    .estate-home-text{
+        padding-top: 0%;
+        height: 400px ;
+    }
+}
+@media only screen and  (min-width:767.98px ) and (max-width: 793px){
+    .mid-text{
+        margin-top: 150px !important ;
+    }
+    .section-one{
+        height: 900px !important ;
+    }
+    .estate-home-text{
+        padding-top: 0%;
+        height: 350px ;
+    }
+    .project-mid-text>h2 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+
+}
+@media only screen and  (max-width: 575px) { 
+    .nav-right-menu ul, .nav-right-menu ul li{
+        margin: auto;
+
+    }
+    .section-one{
+        height: 650px ;
+    }
+    
+    .estate-home-img img{
+        object-fit: contain;
+    }
+    .estate-home-text{
+        padding: 10px 0px ;
+        width: 100% !important;
+        margin: auto;
+        height: 200px ;
+        text-align: center;
+    }
+    .estate-home-text>h1{
+        line-height: 50px ;
+        font-size: 2.5rem;
+    }
+   .estate-home-text>p{
+        text-align: center; 
+        margin: 20px auto ;
+
+    }
+    .mid-text{
+        margin-top: 30% !important ;
+    }
+    .mid-text h1 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .step-main img{
+        width: 30px ;
+    }
+    .project-mid-img{
+        display: none;
+    }
+    .project-mid-text>h2 {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .globle-mid-text h2{
+        width: 100%;
+        margin: 30px 0px ;
+        font-size: 30px ;
+    line-height: 40px;
+
+    }
+
+        /* section 4 */
+        .globle-text{
+            margin: auto;
+            width: 100%;
+            text-align: center;
+        }
+        .globle-text h3{
+            font-size: 2rem;
+            width: 100% !important;
+            text-align: center;
+        }
+        .globle-text p {
+            width: 100%;          
+           margin-bottom: 20px ;
+        }
+        .globle-img{
+            width: 100% !important;
+            margin:  auto ;
+        }
+        .globle-img img{
+            padding-top: 30px ;
+        }
+        .plus img{
+            width: 40px ;
+            margin-top: 0px  !important;
+        }
+        .globle-text .btn {
+            margin: 0% !important
+        }
+        
+    
+    
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and  (min-width: 576px) and (max-width: 767.98px) { 
+    .nav-right-menu ul, .nav-right-menu ul li{
+        margin: auto;
+    }
+    .section-one{
+        height: 850px ;
+    }
+    .estate-home-img img{
+        height: inherit;
+    }
+    .estate-home-text{
+        padding: 30px 0px ;
+        width: 100% !important;
+        margin: auto;
+        text-align: center;
+        height: inherit;
+    }
+    .estate-home-text>h1{
+        margin: 20px auto ;
+        font-size: 3.3rem;
+    }
+   .estate-home-text>p{
+        text-align: center; 
+        margin: 20px auto ;
+
+    }
+    .step-main img{
+        width: 30px ;
+    }
+    .mid-text{
+        margin-top: 100px ;
+    }
+
+    .msg-text{
+        width: 90%;
+        margin: auto;
+    }
+    .sms-text{
+        width: 90%;
+        margin: auto;
+    }
+    .edit-text{
+        width: 90%;
+        margin: auto;
+    }
+    .project-mid-img{
+        display: none;
+    }
+    .project-mid-text>h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .globle-mid-text h2{
+        width: 100%;
+        font-size: 40px ;
+    }
+    /* section 4 */
+    .globle-text{
+        margin: auto;
+        text-align: center;
+    }
+    .globle-text p {
+        width: 100%;
+       margin: auto;
+    }
+    .globle-img{
+        width: 80% !important;
+        margin:  auto ;
+    }
+    .globle-img img{
+        padding-top: 30px ;
+    }
+    .plus {
+        margin-top: 12px  !important;
+    }
+    
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media  only screen and (min-width: 768px) and (max-width: 991.98px)  { 
+
+    .nav-right-menu ul, .nav-right-menu ul li{
+        margin: auto;
+    }
+    .section-one{
+        height: 1050px ;
+    }
+    .estate-home-text{
+        width: 100% !important;
+        margin: auto;
+        text-align: center;
+        
+    }
+    .estate-home-text>h1,.estate-home-text>p{
+        margin: auto;
+        line-height: 60px ;
+        text-align: center; 
+    }
+    .step-main{
+        margin: auto;
+        text-align: center;
+    }
+    .mid-text {
+        margin-top: 100px ;
+    }
+    .project-mid-img{
+        display: none;
+    }
+    .globle-mid-text h2{
+        width: 90%;
+        font-size: 40px ;
+    }
+    .globle-text{
+        margin: auto;
+        text-align: center;
+    }
+    .globle-text p {
+       margin: auto;
+    }
+    .globle-img{
+        width: 80% !important;
+        margin:  auto ;
+    }
+    .globle-img img{
+        padding-top: 30px ;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media  only screen and (min-width: 992px) and (max-width: 1199.98px) { 
+    .nav-right-menu ul{
+        margin-left:auto  ;
+    }
+    .nav-menu{
+        width: 100%;
+    }
+    .section-one{
+        height: 600px !important;
+    }
+    .estate-home-img img{
+        height: inherit;
+    }
+    .step-main{
+        margin: auto;
+        text-align: center;
+    }
+    /* section4 */
+    .globle-mid-text h2{
+        width: 100%;
+    }
+    .globle-text .btn {
+        margin: 10px 0px ;
+    
+    }
+    
+    .plus {
+        margin-top: 12px  !important;
+    }
+    
+    .globle-text h3 {
+        margin: 24px 0px;
+        font-size: 2.5rem;
+    }
+    
+    .globle-text p {
+        width: 80%;
+        margin: 20px  0px;
+    }
+    
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media only screen and  (min-width: 1200px) and (max-width: 1399.98px){ 
+    .nav-right-menu ul{
+        margin-left:auto  ;
+    }
+    
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and  (min-width: 1400px) { 
+
+ }
