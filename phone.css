@@ -2,8 +2,11 @@
 No media query for `xs` since this is the default in Bootstrap */
 @media only screen and  (min-width:792px ) and (max-width: 831px){
     .estate-home-text{
-        padding-top: 0%;
+        padding-top: 10%;
         height: 400px ;
+    }
+    .estate-home-text h1{
+        line-height: 80px !important;
     }
 }
 @media only screen and  (min-width:767.98px ) and (max-width: 793px){
@@ -144,11 +147,12 @@ No media query for `xs` since this is the default in Bootstrap */
             }
             
             .estate-home-text button {
-                padding: 10px;
+                padding: 14px;
+                margin-top: 8px;
                 font-size: 12px  ;
             }
             .estate-foot-text button {
-                padding: 10px;
+                padding: 14px;
                 font-size: 12px  ;
             }
             
@@ -178,6 +182,21 @@ No media query for `xs` since this is the default in Bootstrap */
                 object-fit: contain;
                 width: 100% ;
             }
+            .card-main {
+                display: flex;
+                justify-content: center;
+            }
+            .card {
+                text-align: center;
+                width: 450px !important;
+            }
+            .card >img{
+                object-fit: contain;
+            }
+            .card-img-top{
+                height: 210px !important;
+            }
+            
     
     
 }
@@ -311,6 +330,19 @@ No media query for `xs` since this is the default in Bootstrap */
             object-fit: contain;
             width: 80% ;
         }
+        .card-main {
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+            text-align: center;
+            width: 450px !important;
+        }
+        .card >img{
+            object-fit: fill;
+        }
+      
+        
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -332,6 +364,10 @@ No media query for `xs` since this is the default in Bootstrap */
         margin: auto;
         line-height: 60px ;
         text-align: center; 
+    }
+    .estate-home-img img{
+        /* background-color: red; */
+        object-fit: contain !important;
     }
     .step-main{
         margin: auto;
@@ -412,6 +448,20 @@ No media query for `xs` since this is the default in Bootstrap */
             bottom: 0px ;
             object-fit: contain;
             width: 600px ;
+        }
+        .card-main {
+            display: flex;
+            justify-content: space-between;
+        }
+        .card-img-top {
+            height: 220px !important ;
+            object-fit: contain;
+        }
+        .card {
+            width: 31% !important;
+        }
+        .card >img{
+            object-fit: contain;
         }
  }
 
@@ -500,7 +550,23 @@ No media query for `xs` since this is the default in Bootstrap */
         right: 10px ;
         bottom: 0px ;
     }
+      
+    .card-main {
+        display: flex;
+        justify-content: space-between;
     
+    }
+    
+    .card-img-top {
+        height: 300px !important ;
+        object-fit: contain;
+    }
+    .card {
+        width: 32% !important;
+    }
+    .card >img{
+        object-fit: fill;
+    }
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -508,6 +574,18 @@ No media query for `xs` since this is the default in Bootstrap */
     .nav-right-menu ul{
         margin-left:auto  ;
     }
+    .card-main {
+        font-family: poppins;
+        margin: auto !important;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .card {
+        width: 32% !important;
+    }
+   
     
  }
 

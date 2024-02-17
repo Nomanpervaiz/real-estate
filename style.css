@@ -177,17 +177,21 @@
     margin: auto !important;
     display: flex;
     justify-content: space-between;
+
 }
 
 .card-img-top {
     border-radius: 20px !important;
-    height: 300px;
+    height: 300px !important ;
     object-fit: contain;
 }
-
 .card {
     border-radius: 20px !important;
     padding: 0px !important;
+    width: 400px !important;
+}
+.card >img{
+    object-fit: fill;
 }
 
 /* section four start from here  */
@@ -208,6 +212,7 @@
 
 .globle-text {
     font-family: Poppins;
+    
 }
 
 .globle-text .btn {
